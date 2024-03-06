@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+    server:
+        container_name: test-app
+        build: .
+        restart: always
+        ports:
+            - "80:8080"
